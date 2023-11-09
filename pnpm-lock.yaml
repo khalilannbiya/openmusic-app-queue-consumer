@@ -8,6 +8,9 @@ dependencies:
   amqplib:
     specifier: ^0.10.3
     version: 0.10.3
+  auto-bind:
+    specifier: '4'
+    version: 4.0.0
   dotenv:
     specifier: ^16.3.1
     version: 16.3.1
@@ -281,6 +284,11 @@ packages:
     dependencies:
       has-symbols: 1.0.3
     dev: true
+
+  /auto-bind@4.0.0:
+    resolution: {integrity: sha512-Hdw8qdNiqdJ8LqT0iK0sVzkFbzg6fhnQqqfWhBDxcHZvU75+B+ayzTy8x+k5Ix0Y92XOhOUlx74ps+bA6BeYMQ==}
+    engines: {node: '>=8'}
+    dev: false
 
   /available-typed-arrays@1.0.5:
     resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}
